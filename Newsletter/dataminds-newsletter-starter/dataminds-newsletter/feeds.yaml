@@ -1,0 +1,164 @@
+# Curated RSS feeds for the dataMinds newsletter.
+# Claude Code should validate these URLs on first run — some may have moved.
+
+feeds:
+  # === Microsoft Fabric & Power BI community heavyweights ===
+  - name: Data Mozart (Nikola Ilic)
+    url: https://data-mozart.com/feed/
+  - name: Chris Webb's BI Blog
+    url: https://blog.crossjoin.co.uk/feed/
+  - name: Tabular Editor Blog
+    url: https://tabulareditor.com/blog/rss.xml
+    notes: Confirm feed URL on first run
+  - name: Purple Frog Systems
+    url: https://www.purplefrogsystems.com/feed/
+  - name: Bowdark
+    url: https://www.bowdark.com/blog/rss.xml
+    notes: Verify on first run
+  - name: Formula5
+    url: https://formula5.com/feed/
+  - name: Ivan Ivani
+    url: https://realivanivani.github.io/feed.xml
+  - name: Fabric.guru (Sandeep Pawar)
+    url: https://fabric.guru/feed
+  - name: RADACAD (Reza Rad)
+    url: https://radacad.com/feed
+  - name: SQLBI
+    url: https://www.sqlbi.com/feed/
+  - name: data-marc (Marc Lelijveld)
+    url: https://data-marc.com/feed/
+  - name: BI Polar (Matthew Roche)
+    url: https://ssbipolar.com/feed/
+  - name: DAX.tips (Phil Seamark)
+    url: https://dax.tips/feed/
+  - name: James Serra's Blog
+    url: https://www.jamesserra.com/feed/
+  - name: Endjin
+    url: https://endjin.com/blog/rss
+  - name: Excelerator BI (Matt Allington)
+    url: https://exceleratorbi.com.au/feed/
+  - name: Havens Consulting
+    url: https://havensconsulting.net/feed/
+  - name: Datahai BI (Andy Cutler)
+    url: https://datahai.co.uk/feed/
+
+  # === Belgian / European community ===
+  - name: Plainsight Blog
+    url: https://plainsight.be/feed/
+  - name: Kevin Chant
+    url: https://www.kevinrchant.com/feed/
+  - name: Stijn Wynants
+    url: https://sqlstijn.com/feed/
+
+  # === SQL & data engineering ===
+  - name: Andy Leonard
+    url: https://andyleonard.blog/feed/
+  - name: Brent Ozar
+    url: https://www.brentozar.com/feed/
+
+  # === Additional Fabric & Power BI community ===
+  - name: Gilbert Quevauvilliers (FabricBlog)
+    url: https://fabricblog.com/feed/
+    notes: Verify on first run
+  - name: Imke Feldmann (The BIccountant)
+    url: https://www.thebiccountant.com/feed/
+  - name: Kasper de Jonge
+    url: https://kasperonbi.com/feed/
+    notes: Verify on first run
+  - name: Pieter Vanhout
+    url: https://pieter.cloud/feed/
+    notes: Belgian Fabric MVP — verify on first run
+  - name: Guy in a Cube
+    url: https://guyinacube.com/feed/
+    notes: Verify on first run
+  - name: David Eldersveld
+    url: https://dataveld.com/feed/
+    notes: Verify on first run
+  - name: Michael Kovalsky (Fabric Notebook)
+    url: https://michaelkovalsky.com/feed/
+    notes: Verify on first run
+
+  # === Additional SQL ===
+  - name: Erik Darling Data
+    url: https://erikdarlingdata.com/feed/
+  - name: Pinal Dave (SQLAuthority)
+    url: https://blog.sqlauthority.com/feed/
+  - name: MSSQLTips
+    url: https://www.mssqltips.com/rss/
+    notes: High-volume feed — expect many candidates
+
+  # === AI on Microsoft technology ===
+  - name: Advancing Analytics (Simon Whiteley)
+    url: https://www.advancinganalytics.co.uk/feed
+    notes: Verify on first run
+  - name: Henk Boelman
+    url: https://henkboelman.com/feed/
+    notes: Azure AI / ML practitioner
+  - name: Valentina Alto
+    url: https://medium.com/feed/@valentina.alto
+    notes: Azure AI / LLM practitioner — Medium feed, verify on first run
+  - name: Build5Nines (Chris Pietschmann)
+    url: https://build5nines.com/feed/
+    notes: Azure cloud and AI practitioner — broad Azure/AI coverage
+  - name: Thomas Maurer
+    url: https://www.thomasmaurer.ch/feed/
+    notes: Azure MVP — cloud, AI, infrastructure
+  - name: Tobias Zimmergren
+    url: https://zimmergren.net/feed/
+    notes: Azure MVP — Azure, AI, governance
+
+  # === Additional Microsoft Fabric & Power BI ===
+  - name: Kerry Kolosko
+    url: https://kerrykolosko.com/feed/
+    notes: Power BI / Fabric — custom visuals and report design
+  - name: Meagan Longoria (Data Savvy)
+    url: https://datasavvy.me/feed/
+    notes: Power BI, data visualisation, accessibility
+  - name: Paul Turley (SQL Server BI Blog)
+    url: https://sqlserverbi.blog/feed/
+    notes: Fabric, Power BI, SQL Server BI
+  - name: Wyn Hopkins (Access Analytic)
+    url: https://accessanalytic.com.au/feed/
+    notes: Power BI training and consulting — verify on first run
+  - name: Rui Romano
+    url: https://ruiromano.com/feed/
+    notes: Power BI specialist — verify on first run
+  - name: Power BI Tips
+    url: https://powerbi.tips/feed/
+    notes: Community site — broad Power BI / Fabric content, verify on first run
+  - name: Prathy Kamasani
+    url: https://prathy.com/feed/
+    notes: Power BI / Fabric — verify on first run
+  - name: SQLShack
+    url: https://www.sqlshack.com/feed/
+    notes: High-volume feed — broad SQL, BI, Fabric content. Filter aggressively.
+
+  # === Additional SQL & data engineering ===
+  - name: SQLperformance.com
+    url: https://sqlperformance.com/feed
+    notes: SQL Server performance — high quality, low volume
+  - name: Redgate Simple Talk
+    url: https://www.red-gate.com/simple-talk/feed/
+    notes: SQL, .NET, data dev — filter for SQL/data engineering relevance
+  - name: Kendra Little
+    url: https://littlekendra.com/feed/
+    notes: SQL Server training and performance
+  - name: SQLpassion (Klaus Aschenbrenner)
+    url: https://www.sqlpassion.at/blog/feed/
+    notes: SQL Server internals and performance
+  - name: Confessions of a Data Guy
+    url: https://www.confessionsofadataguy.com/feed/
+    notes: Data engineering — Spark, Python, pipelines
+  - name: DataTalks.Club Blog
+    url: https://datatalks.club/rss/blog.xml
+    notes: Data engineering community — verify on first run
+
+excluded_domains:
+  - blog.fabric.microsoft.com
+  - powerbi.microsoft.com
+  - techcommunity.microsoft.com
+  - learn.microsoft.com
+  - azure.microsoft.com
+  - devblogs.microsoft.com
+
+lookback_days: 60

@@ -1,0 +1,30 @@
+{# WPBakery shortcode template for the dataMinds monthly newsletter.        #}
+{# Render with Jinja2. Variables expected:                                  #}
+{#   month_name (str), year (int), articles (list of Article)               #}
+{#                                                                          #}
+{# Each Article has: title, author, url, summary, category (str).          #}
+{# summary must be clean body text only — no "Author: X\n\nIn..." preamble. #}
+{# Valid categories: "AI & Copilot", "DAX", "Data Engineering",             #}
+{# "Microsoft Fabric", "Power BI", "Real-Time Intelligence", "SQL Server".  #}
+{#                                                                          #}
+{# Image placeholder = {{News_<slug>}} where slug = category_to_slug().     #}
+{# Canonical slug rule: scripts/generate_image.py:category_to_slug()        #}
+{#   "AI & Copilot"          -> {{News_AI_Copilot}}                         #}
+{#   "Real-Time Intelligence" -> {{News_Real_Time_Intelligence}}             #}
+{# Articles sharing a category reuse the same placeholder (one image upload #}
+{# per unique category). DEFAULT_MEDIA_IDS in finalize.py uses same slugs.  #}
+{#                                                                          #}
+{# Fill in real WordPress media IDs with scripts/finalize.py.               #}
+[us_separator size="large"]
+{% for a in articles %}
+{%- set img_slug = 'News_' + (a.category | replace(' & ', '_') | replace(' ', '_') | replace('-', '_')) %}
+[vc_row css=".vc_custom_1633617659553{margin-top: -50px !important;margin-bottom: -50px !important;}"][vc_column width="2/3"]
+[vc_column_text]<h3>{{ a.title }}</h3>
+<p>{{ a.summary }}</p>
+<p>Author: {{ a.author }}</p>[/vc_column_text]
+[us_btn label="Read more" link="url:{{ a.url | urlencode }}|title:Read%20more|target:%20_blank|"]
+[us_separator size="small"]
+[/vc_column][vc_column width="1/3" offset="vc_hidden-xs"]
+[us_image image="{{ '{{' }}{{ img_slug }}{{ '}}' }}" size="medium" align="right" style="shadow-2" onclick="custom_link" link="url:{{ a.url | urlencode }}||target:%20_blank|" animate="afr" animate_delay="1"]
+[/vc_column][/vc_row]
+{%- endfor %}
