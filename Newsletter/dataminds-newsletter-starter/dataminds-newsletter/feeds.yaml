@@ -49,6 +49,12 @@ feeds:
     url: https://www.kevinrchant.com/feed/
   - name: Stijn Wynants
     url: https://sqlstijn.com/feed/
+  - name: Serge Luca (Doctor Flow)
+    url: https://sergeluca.wordpress.com/feed/
+    notes: Belgian Power Platform MVP - Copilot Studio, AI agents. Added Nov 2026.
+  - name: Sander van de Velde
+    url: https://sandervandevelde.wordpress.com/feed/
+    notes: Belgian IT consultant - Fabric Real-Time Intelligence, IoT, Eventhouse. Added Nov 2026.
 
   # === SQL & data engineering ===
   - name: Andy Leonard
@@ -78,6 +84,17 @@ feeds:
     url: https://michaelkovalsky.com/feed/
     notes: Verify on first run
 
+  # === Additional Fabric data engineering (added Nov 2026) ===
+  - name: Miles Cole
+    url: https://milescole.dev/feed.xml
+    notes: Deep Spark/Fabric data engineering performance deep-dives
+  - name: Dustin Vannoy
+    url: https://dustinvannoy.com/feed/
+    notes: Spark, lakehouse architecture, modern data engineering practice
+  - name: Amit Chandak (Medium)
+    url: https://medium.com/feed/@amitchandak
+    notes: Fabric MVP - Eventstream/KQL, workspace architecture, data engineering
+
   # === Additional SQL ===
   - name: Erik Darling Data
     url: https://erikdarlingdata.com/feed/
@@ -106,6 +123,12 @@ feeds:
   - name: Tobias Zimmergren
     url: https://zimmergren.net/feed/
     notes: Azure MVP — Azure, AI, governance
+  - name: Luise Freese (M365 Princess)
+    url: https://www.m365princess.com/index.xml
+    notes: Power Platform/Azure architect - practical AI adoption, Copilot governance. Added Nov 2026.
+  - name: SQLGene (Eugene Meidinger)
+    url: https://www.sqlgene.com/feed/
+    notes: Power BI/Fabric MVP - candid takes on AI's impact on BI careers. Added Nov 2026.
 
   # === Additional Microsoft Fabric & Power BI ===
   - name: Kerry Kolosko
@@ -132,6 +155,21 @@ feeds:
   - name: SQLShack
     url: https://www.sqlshack.com/feed/
     notes: High-volume feed — broad SQL, BI, Fabric content. Filter aggressively.
+  - name: Soheil Bakhshi (BI Insight)
+    url: https://biinsight.com/feed/
+    notes: Fabric/Power BI MVP (NZ) - admin, security, Copilot, agentic AI. Added Nov 2026.
+  - name: Teo Lachev (Prologika)
+    url: https://prologika.com/feed/
+    notes: BI consultant - Fabric capacities, semantic models, Direct Lake. Added Nov 2026.
+  - name: Shabnam Watson
+    url: https://shabnamwatson.com/feed/
+    notes: Fabric/Power BI MVP - Direct Lake, hybrid tables, performance. Added Nov 2026.
+  - name: Valerie Junk (PorcuBI)
+    url: https://www.valeriejunk.nl/feed/
+    notes: Fabric/Power BI - Fabric Apps, KQL and Real-Time Intelligence tutorials. Added Nov 2026.
+  - name: Daniil Maslyuk (XXL BI)
+    url: https://xxlbi.com/feed/
+    notes: Independent BI consultant - DAX antipatterns and deep technique posts. Added Nov 2026.
 
   # === Additional SQL & data engineering ===
   - name: SQLperformance.com
